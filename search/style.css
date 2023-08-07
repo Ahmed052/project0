@@ -22,6 +22,9 @@
   background-color:#f5f3f2;
   border-width: 0px;
   border-radius: 4px;
+  justify-content: center; 
+  align-items: center;
+  
 }
 .btn:hover {
   box-shadow: #f5f3f2;
@@ -69,6 +72,8 @@ body {
  }
  .image2{
     width: 100px;
+    position: fixed;
+    top: 50px;
  }
  .some-text{
     color: red;
@@ -81,7 +86,7 @@ body {
   .top-content{
     margin: 20px;
   }
-   
+
 
   .advanced-text{
     display: flex;
@@ -94,7 +99,7 @@ body {
      display: flex;
      flex-direction: column;
      margin-top: 48px;
-     width: 1000px;
+     width: 600px;
      
    }
  .frm{
@@ -120,6 +125,20 @@ body {
   display: flex;
   font-size: 15px
   
+}
+.btn1{
+  color: white;
+  background-color: blue;
+  border-width: 0px;
+  border-radius: 4px;
+  position: fixed;
+  left: 650px;
+
+}
+.btn1:hover{
+  box-shadow: #f5f3f2;
+  border-width: .5px ;
+  border-color: #d6d3d3;
 }
 @media only screen and (max-width: 768px){
   .advanced-text1 p{
